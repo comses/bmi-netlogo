@@ -10,6 +10,9 @@
 .project
 .settings
 
+# IntelliJ Specific
+.idea
+
 # VS Code Specific
 .vscode
 
