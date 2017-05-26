@@ -59,7 +59,16 @@ vim:sts=2:sw=2
       <groupId>org.nlogo</groupId>
       <artifactId>netlogo</artifactId>
       <version>6.0.1</version>
-      <type>pom</type>
+	  <exclusions>
+		<exclusion>  <!-- declare the exclusion here -->
+          <groupId>org.nlogo</groupId>
+          <artifactId>parser</artifactId>
+        </exclusion>
+   		<exclusion>  <!-- declare the exclusion here -->
+          <groupId>org.jhotdraw</groupId>
+          <artifactId>jhotdraw</artifactId>
+        </exclusion>
+   </exclusions> 
     </dependency>
   </dependencies>
   <build>

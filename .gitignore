@@ -1,4 +1,6 @@
 # Based on https://github.com/github/gitignore
+#
+*~
 
 # MacOS X Specific
 .DS_Store
