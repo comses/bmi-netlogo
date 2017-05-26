@@ -12,6 +12,7 @@
 
 # IntelliJ Specific
 .idea
+*.iml
 
 # VS Code Specific
 .vscode
