@@ -13,7 +13,7 @@ vim:sts=2:sw=2
   <artifactId>bmi-netlogo</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <name>bmi-java</name>
+  <name>bmi-netlogo</name>
   <url>http://github.com/comses/bmi-netlogo</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,6 +56,11 @@ vim:sts=2:sw=2
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>edu.colorado.csdms</groupId>
+      <artifactId>bmi-java</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.nlogo</groupId>
       <artifactId>netlogo</artifactId>
       <version>6.0.1</version>
@@ -88,7 +93,7 @@ vim:sts=2:sw=2
     </dependency>
   </dependencies>
   <build>
-    <finalName>bmi-java</finalName>
+    <finalName>bmi-netlogo</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
